@@ -12,7 +12,7 @@ function Recipe(props){
     ))}
     </ol>
     <p><span className={style.calorie}>Calories</span> {props.calories}</p>
-    <img className={style.image} src={props.img}/>
+    <img className={style.image} src={props.img} alt={props.title}/>
     </div>
 
   )
